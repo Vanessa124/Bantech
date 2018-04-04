@@ -12,12 +12,25 @@ body{
 header{
     height: 500px;
     margin-bottom: 20px;
-    line-height: 300px;
+    overflow: auto;
 }
 
-header span{
+#apresentacao{
+    width: auto;
+    height: auto;
+    background-color: #3CB371;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+#apresentacao span{
     font-weight: bold;
     font-size: 48px;
+}
+
+#apresentacao p{
+    font-size: 26px;
 }
 
 #caixaConteudo{
@@ -69,4 +82,9 @@ footer{
 
 #botao:hover{
     cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
 }
