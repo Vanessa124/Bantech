@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Controle Financeiro</string>
+    <string name="title_activity_categoria">CategoriaActivity</string>
+    <string name="title_activity_cadastro_categoria">CadastroCategoriaActivity</string>
+    <string name="title_activity_lancamento">LancamentoActivity</string>
+    <string name="title_activity_cadastro_lancamento">CadastroLancamentoActivity</string>
+    <string name="title_activity_visualiar">VisualizarActivity</string>
+    <string name="title_activity_estatisticas">EstatisticasActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

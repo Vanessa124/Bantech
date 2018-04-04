@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:weightSum="15">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/view_img_cat"
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_marginRight="5dp"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Categoria"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/view_txt_nome_cat"
+        android:layout_weight="9"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Recebido"
+        android:layout_weight="3"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/txt_tipo_lancamento"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="R$00,00"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3"
+        android:id="@+id/view_txt_saldo"
+        />
+
+</LinearLayout>

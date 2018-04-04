@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.senaijandira.controlefinanceiro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_account_balance_white_24dp"
+        android:label="Bantech"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".CategoriaActivity"
+            android:label="@string/title_activity_categoria"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.senaijandira.controlefinanceiro.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CadastroCategoriaActivity"
+            android:label="@string/title_activity_cadastro_categoria"
+            android:parentActivityName=".CategoriaActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.senaijandira.controlefinanceiro.CategoriaActivity" />
+        </activity>
+        <activity
+            android:name=".LancamentoActivity"
+            android:label="@string/title_activity_lancamento"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.senaijandira.controlefinanceiro.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CadastroLancamentoActivity"
+            android:label="@string/title_activity_cadastro_lancamento"
+            android:parentActivityName=".LancamentoActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.senaijandira.controlefinanceiro.LancamentoActivity" />
+        </activity>
+        <activity
+            android:name=".VisualizarActivity"
+            android:label="@string/title_activity_visualiar"
+            android:parentActivityName=".LancamentoActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.senaijandira.controlefinanceiro.LancamentoActivity" />
+        </activity>
+        <activity
+            android:name=".EstatisticasActivity"
+            android:label="@string/title_activity_estatisticas"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.senaijandira.controlefinanceiro.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Bantech"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"> </action>
+                <category android:name="android.intent.category.LAUNCHER">  </category>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

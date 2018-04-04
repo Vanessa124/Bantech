@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.senaijandira.controlefinanceiro.CadastroCategoriaActivity"
+    tools:showIn="@layout/activity_cadastro_categoria"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha uma imagem:"
+        android:layout_gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cadastro_img_categoria"
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_gravity="center_horizontal"
+        android:onClick="abrirGaleria"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o nome da categoria:"
+        android:id="@+id/cadastro_nome_categoria"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar categoria"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btn_cadastro"
+        />
+
+</LinearLayout>
